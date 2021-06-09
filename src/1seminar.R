@@ -15,7 +15,8 @@ OUT_DIR <- 'Results/'
 ###
 
 bed_df <- read.delim(paste0(NAME, '.bed'), as.is = TRUE, header = FALSE)
-colnames(bed_df) <- c('chrom', 'start', 'end', 'name', 'score')
+# colnames(bed_df) <- c('chrom', 'start', 'end', 'name', 'score')
+colnames(bed_df) <- c('chrom', 'start', 'end')
 bed_df$len <- bed_df$end - bed_df$start
 head(bed_df)
 
