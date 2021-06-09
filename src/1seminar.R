@@ -9,7 +9,8 @@ setwd("C:/Users/Alexandra/Documents/Биоинформатика/final_project")
 # NAME <- 'H3K36me3_H7.ENCFF063DDB.hg38'
 # NAME <- 'H3K36me3_H7.ENCFF864HTI.hg19'
 # NAME <- 'H3K36me3_H7.ENCFF864HTI.hg38'
-NAME <- 'g4.merged'
+# NAME <- 'g4.merged'
+NAME <- 'exp.g4.intersection'
 OUT_DIR <- 'Results/'
 
 ###
