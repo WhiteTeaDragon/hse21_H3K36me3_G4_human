@@ -15,8 +15,10 @@ library(clusterProfiler)
 
 ###
 
-NAME <- 'H3K36me3_H7.ENCFF864HTI.hg19.filtered'
+# NAME <- 'H3K36me3_H7.ENCFF864HTI.hg19.filtered'
 # NAME <- 'H3K36me3_H7.ENCFF063DDB.hg19'
+# NAME <- 'g4.merged'
+NAME <- 'exp.g4.intersection'
 BED_FN <- paste0(NAME, '.bed')
 OUT_DIR <- 'Results/'
 
